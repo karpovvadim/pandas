@@ -6,7 +6,6 @@ weekly_data = {'day': ['Monday', 'Tuesday', 'Wednesday', 'Thursday',
                              'Cloudy', 'Rain']
                }
 df = pd.DataFrame(weekly_data)
-
 print("\n-------set_index(day)------------------------------------")
 df_new = df.set_index('day')
 print(df_new)

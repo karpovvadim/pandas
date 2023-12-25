@@ -11,7 +11,6 @@ weekly_data = {'day': ['Monday', 'Tuesday', 'Wednesday', 'Thursday',
                }
 df = pd.DataFrame(weekly_data)
 df.index = ['MON', 'ТUЕ', 'WED', 'ТНU', 'FRI', 'SAT', 'SUN']
-
 print(df.loc['ТUЕ'], "\n")
 print(df.loc[['ТUЕ', 'WED']], "\n")
 

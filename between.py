@@ -8,7 +8,6 @@ weekly_data = {'day': ['Monday', 'Tuesday', 'Wednesday', 'Thursday',
                }
 df = pd.DataFrame(weekly_data)
 print(df, "\n")
-
 print(df[(df.temperature >= 30) & (df.temperature <= 40)], "\n")
 print(df[df.temperature.between(30, 40)], "\n")
 # В обоих случаях мы получим одинаковый консольный вывод. Однако использовать
