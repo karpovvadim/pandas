@@ -25,6 +25,7 @@ weekly_data = {'day': ['Monday', 'Tuesday', 'Wednesday', 'Thursday',
                'condition': ['Sunny', 'Cloudy', 'Sunny', 'Rain', 'Sunny',
                              'Cloudy', 'Rain']
                }
+
 df = pd.DataFrame(weekly_data)
 print(df)
 

@@ -6,6 +6,7 @@ weekly_data = {'day': ['Monday', 'Tuesday', 'Wednesday', 'Thursday',
                'condition': ['Sunny', 'Cloudy', 'Sunny', 'Rain', 'Sunny',
                              'Cloudy', 'Rain']
                }
+
 df = pd.DataFrame(weekly_data)
 df.index = ['MON', 'ТUЕ', 'WED', 'ТНU', 'FRI', 'SAT', 'SUN']
 

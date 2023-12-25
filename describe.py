@@ -28,6 +28,7 @@ weekly_data = {'day': ['Monday', 'Tuesday', 'Wednesday', 'Thursday',
                'condition': ['Sunny, ', '_Cloudy ', 'Sunny', 'Rainy',
                              '--Sunny. ', 'Cloudy.', 'Rainy']
                }
+
 df = pd.DataFrame(weekly_data)
 df["condition"] = df["condition"].map(lambda x: x.lstrip('_- ').rstrip(',. '))
 print(df, "\n\n", "-------------df.describe()---------------------------------")
